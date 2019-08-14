@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Neklo_ScrollToTop>
+            <active>true</active>
+            <codePool>community</codePool>
+            <depends>
+                <Neklo_Core/>
+            </depends>
+            <extension_name>Scroll To Top</extension_name>
+            <url></url>
+            <encoding></encoding>
+        </Neklo_ScrollToTop>
+    </modules>
+</config>

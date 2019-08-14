@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<layout>
+    <default>
+        <reference name="head">
+            <action method="addItem">
+                <type>skin_css</type>
+                <name>neklo/scrolltotop/css/styles.css</name>
+            </action>
+            <action method="addItem">
+                <type>skin_js</type>
+                <name>neklo/scrolltotop/js/script.js</name>
+            </action>
+        </reference>
+        <reference name="before_body_end">
+            <block type="neklo_scrolltotop/arrow" name="neklo_scrolltotop_arrow" template="neklo/scrolltotop/arrow.phtml" />
+        </reference>
+    </default>
+</layout>
